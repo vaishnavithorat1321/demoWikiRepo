@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="login_steps">
+    <title>Logging in to INVIDI Conexus</title>
+    <shortdesc>You can log in into the INVIDI Conexus platform using the credentials received in an
+        email.</shortdesc>
+    <taskbody>
+        <prereq id="prereq_yxf_1cn_zfc">Open the activation email with the subject title
+            "Activation".</prereq>
+        <steps>
+            <?oxy_comment_start author="pst-m1-pro-2021" timestamp="20250715T184134+0530" comment="Information received is incomplete, Add subsequent steps for this."?>
+            <step>
+                <cmd>Click <uicontrol>Account Update</uicontrol>.</cmd>
+            </step><?oxy_comment_end?>
+            <step>
+                <cmd>Click <uicontrol>INVIDI Unified Login</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>In the <uicontrol>Customer</uicontrol> box, enter the customer name.</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Continue</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>In the <uicontrol>Username</uicontrol> and <uicontrol>Password</uicontrol>
+                    boxes, enter your user credentials.</cmd>
+            </step>
+            <step importance="optional">
+                <cmd>Complete the MFA process.</cmd>
+            </step>
+        </steps>
+        <result id="result_mcz_sdm_zfc">You'll be directed to your <ph
+                conref="login_overview.dita#login_overview/invidi_conexus_trademark"/>
+            dashboard.</result>
+    </taskbody>
+</task>
