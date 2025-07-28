@@ -1,0 +1,15 @@
+<topic id="auto-generated"><title>Document</title><body><section><title>Quick Start Guide: v1.1</title><p>
+</p><p>This guide will help you get started with the application.</p><p>
+</p></section><section><title>1. Introduction</title><p>
+</p><p>This application provides a document management platform with role-based access control and a user-friendly interface.</p><p>
+</p></section><section><title>2. Quick Setup</title><p>
+</p><p>To begin, you'll need to complete the following steps:</p><p>
+</p><ul><li>Create .env files and configuration scripts for managing API base URLs and environment-specific settings.</li><li>Set up React Router DOM for main application navigation.</li><li>Implement Login Flow in Frontend.</li><li>Configure React Router with Protected Routes.</li></ul><p>
+</p></section><section><title>3. Core Functionality</title><p>
+</p><ul><li>
+Document Dashboard: As an authenticated user, you can view a list of all documents you own. This dashboard allows you to create, edit, and delete documents.
+</li><li>
+Role-Based Access Control: The application implements role-based access control (RBAC) with roles such as Admin, Editor, and Viewer. Admins have full control, while Editors can create and edit content, and Viewers have read-only access.
+</li></ul><p>
+</p></section><section><title>4. Next Steps</title><p>
+</p><p>Refer to official product documentation for more information on advanced features and configurations.</p></section></body></topic>
